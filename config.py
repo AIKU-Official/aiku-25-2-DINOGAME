@@ -1,0 +1,33 @@
+# config.py
+
+import os
+from collections import deque
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
+
+GAME_URL = "chrome://dino"
+CHROME_DRIVER_PATH = ChromeDriverManager().install()
+DATA_DIR = "./data"
+MODEL_DIR = "./model"
+SAVE_INTERVAL = 1000
+
+os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(MODEL_DIR, exist_ok=True)
+PARAMS_FILE = os.path.join(DATA_DIR, "params.pkl")
+ 
+INIT_SCRIPT = "document.getElementsByClassName('runner-canvas')[0].id = 'runner-canvas'"
+GET_BASE64_SCRIPT = "canvasRunner = document.getElementById('runner-canvas'); return canvasRunner.toDataURL().substring(22)"
+
+ACTIONS = 2 ## 안엎드림
+GAMMA = 0.99
+OBSERVATION = 10000
+EXPLORE = 500000
+FINAL_EPSILON = 0.01
+INITIAL_EPSILON = 0.3 
+REPLAY_MEMORY = 10000
+BATCH_SIZE = 32  
+LEARNING_RATE = 1e-4  
+IMG_CHANNELS = 4
+IMG_SIZE = 128   # resolution 조절하기. 변경 시 model.py CNN FC layer 고려할 것!
