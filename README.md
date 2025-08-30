@@ -1,7 +1,7 @@
 # 세상에서가장잘뛰는공룡만들기
 
 📢 2025년 여름학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다.
-🎉 2025년 여름학기 AIKU Conference 열심히상 수상!
+🎉 2025년 여름학기 AIKU Conference 열심히상 수상(하고싶습니다)!
 
 ## 소개
 
