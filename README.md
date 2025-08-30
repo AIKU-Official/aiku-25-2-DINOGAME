@@ -5,6 +5,8 @@
 
 ## 소개
 
+<img width="671" height="235" alt="image" src="https://github.com/user-attachments/assets/8fe8d433-3c2f-4c2b-8ca1-98a02295d1d6" />
+
 크롬 공룡게임(T-Rex Runner)을 자동으로 플레이하는 에이전트를  
 **강화학습(Reinforcement Learning)** 알고리즘 중 하나인 **DQN (Deep Q-Network)** 으로 학습시킨 프로젝트입니다.  
 
