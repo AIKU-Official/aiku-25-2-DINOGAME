@@ -59,6 +59,8 @@ python main.py
 python main.py
 ```
 
+학습 파라미터가 필요할 경우, 개인적으로 연락주세요!
+
 ## 예시 결과
 
 <img width="1907" height="1008" alt="dino_game" src="https://github.com/user-attachments/assets/5e0f255d-2cb4-4a24-ada9-e0c079953850" />
