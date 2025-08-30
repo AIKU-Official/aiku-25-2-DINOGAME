@@ -11,7 +11,7 @@
 **강화학습(Reinforcement Learning)** 알고리즘 중 하나인 **DQN (Deep Q-Network)** 으로 학습시킨 프로젝트입니다.  
 
 프레임 단위의 게임 화면을 입력으로 받아, 공룡이 점프(↑)와 대기(–) 같은 액션을 선택하도록 학습합니다.
-학습이 진행될수록 공룡은 더 멀리 뛰고, 장애물(선인장, 새)을 피할 확률이 점점 높아집니다.
+학습이 진행될수록 공룡은 더 빠르게 뛰고, 장애물(선인장, 새)을 피할 확률이 점점 높아집니다.
 
 ## 방법론
 
@@ -29,7 +29,8 @@
     - 불필요한 행동(점프, 엎드리기) 시 소량 패널티
     - 장애물 충돌 시 큰 음수 보상
     - 일정한 milestone score 획득 시 추가 보상 (milestone score는 50점에서 시작하여, 25점 씩 증가)
-
+  - "엎드리기" action이 불필요하다고 판단되어, 점프와 대기만 학습.
+    
 ## 환경 설정
 
 ```
@@ -37,12 +38,7 @@
 conda create -n dino_rl python=3.9
 conda activate dino_rl
 
-# 필수 라이브러리 설치
-pip install torch torchvision
-pip install numpy opencv-python pillow
-pip install selenium webdriver-manager
-
-# 혹은 아래의 requirements.txt를 설치해주세요.
+# 첨부된 requirements.txt를 설치해주세요.
 pip install -r requirements.txt
 ```
 
