@@ -65,5 +65,5 @@ python main.py
 
 - [지세현](https://github.com/sehyeonji321): 베이스라인 코드 작성, train, github 작성
 - [유창우](https://github.com/changwoolab): 코드 작성 및 수정, train, 발표 자료 제작
-- [최우석](link): 코드 작성 및 수정, train, 노션 자료 제작
+- [최우석](https://github.com/woosukqw12): 코드 작성 및 수정, train, 노션 자료 제작
 - [마현우](https://github.com/ruaqktk): 코드 작성 및 수정, train, 발표
