@@ -59,9 +59,11 @@ python main.py
 
 ## 예시 결과
 
+<img width="1140" height="288" alt="600" src="https://github.com/user-attachments/assets/f483bbbf-a8b6-4e8b-bf3b-ea47cb9094c6" />
+
+
 <img width="1907" height="1008" alt="dino_game" src="https://github.com/user-attachments/assets/bbeb6dd5-ae9f-4e90-ad76-3d281154083f" />
 
-<img width="380" height="96" alt="600" src="https://github.com/user-attachments/assets/f483bbbf-a8b6-4e8b-bf3b-ea47cb9094c6" />
 
 
 ## 팀원
