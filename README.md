@@ -59,6 +59,9 @@ python main.py
 
 ## 예시 결과
 
+reward policy, epsilon decaying policy, 각종 하이퍼파라미터를 조절하며 얻은 top-2 결과입니다.
+
+
 <img width="1140" height="288" alt="600" src="https://github.com/user-attachments/assets/f483bbbf-a8b6-4e8b-bf3b-ea47cb9094c6" />
 
 
